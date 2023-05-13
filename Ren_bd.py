@@ -12,7 +12,9 @@ with conn.connect() as connection:
         pass
 
 with conn.connect() as connection:
-    response_credit = connection.execute(text('SELECT * FROM credit_cards'))
-    data_credit = response_credit.fetchall()
-    print(data_credit[0][1])
+    response_buttons = connection.execute(text('SELECT * FROM buttons'))
+    data_buttons = response_buttons.fetchall()
+    #print(response_credit['text'].value_counts())
+    print(data_buttons[0][3])
+
 
