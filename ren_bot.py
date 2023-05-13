@@ -70,7 +70,7 @@ class Ren_bot:
                     #markup_support.add(InlineKeyboardButton(text='Кредит на любые цели', callback_data='сredit4everything'))
                     #markup_support.add(InlineKeyboardButton(text='Рефинансирование кредита', callback_data='refinance'))
                     #markup_support.add(InlineKeyboardButton(text='Кредиты на покупку товаров', callback_data='сredit4products'))
-
+                    #fkjgkdsbgkjsdngjlsd
 
         self.bot.polling(none_stop=True)
 
