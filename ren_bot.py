@@ -1,5 +1,4 @@
 import telebot
-import psycopg2
 from telebot import types
 from sqlalchemy import create_engine
 from sqlalchemy import text
